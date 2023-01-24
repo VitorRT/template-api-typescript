@@ -1,10 +1,9 @@
 {
-  "name": "Api_Architect_TS",
+  "name": "your_api_name",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules --ignore ./src/test ./src/server.ts",
-    "d": "ts-node-dev ./src/common/utils/Random.ts",
     "build": "tsc"
   },
   "dependencies": {
