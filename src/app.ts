@@ -45,12 +45,6 @@ export default class App {
         this.app.use(express.json());
         this.app.use(cors());
         this.app.use(express.urlencoded({ extended: true }));
-        this.app.use((error: any, req: Request, res: Response, next: NextFunction) => {
-            res.status(error.statusCode).json({
-                status: error.statusCode,
-                message: error.message
-            })
-        })
     }
     
     private welcomeApi(){
