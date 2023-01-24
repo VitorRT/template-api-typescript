@@ -4,7 +4,7 @@ const headers = {
     Accept: "application/json"
 };
 
-export async function fetchSomething(url: string): Promise<any> {
+export async function fetchSomethingGet(url: string): Promise<any> {
     try {
         const response = await axios.get(url, { headers });
         if(!response) throw new Error("Network response was not good");
