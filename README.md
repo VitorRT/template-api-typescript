@@ -19,6 +19,6 @@ _Pretendo fazer um vídeo rápido explicando o modelo, porque acho que será mel
     - NODE_ENV=development ( isso é pra deixar claro que seu banco é de desenvolvimento, nao de produção. Eu recomendo que você deixe desse jeito)
 4. Rode o comando `npm run build` ou `yarn build` para converter todo o projeto typescritp para o javascript. Jajá você vai entender o motivo.
 5. Rode o comando `npm run dev` ou `yarn dev` e espere o servidor ficar online.
-6. Se você for querer rodar algum seeder do sequelize, rode o comando `npx sequelize-cli db:seed:all` ou `yarn sequelize-cli db:seed:all`. (**SEMPRE RODE O `npm run build` ou `yarn run build` SE FOR USAR ALGUM COMANDO DO SEQUELIZE-CLI**)
+6. Se você for querer rodar algum seeder do sequelize, rode o comando `npx sequelize-cli db:seed:all` ou `yarn sequelize-cli db:seed:all`. (**SEMPRE RODE ANTES O `npm run build` ou `yarn run build` SE FOR USAR ALGUM COMANDO DO SEQUELIZE-CLI**)
 7. Monte a sua API REST e seja feliz! 😁☕
 > <small>by: VitorRT 💌<small/>
