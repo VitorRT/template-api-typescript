@@ -17,7 +17,7 @@ const config = {
         password: dbPwd,
         hostname: dbHost,
         port: Number(dbPort),
-        dialect: "mysql",
+        dialect: dbDriver,
         loggin: true,
     },
     test: {
@@ -26,7 +26,7 @@ const config = {
         password: dbPwd,
         hostname: dbHost,
         port: Number(dbPort),
-        dialect: "mysql",
+        dialect: dbDriver,
         loggin: true,
     },
     production: {
@@ -35,7 +35,7 @@ const config = {
         password: dbPwd,
         hostname: dbHost,
         port: Number(dbPort),
-        dialect: "mysql",
+        dialect: dbDriver,
         loggin: true,
     }
 }
